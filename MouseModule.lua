@@ -1,7 +1,9 @@
-local module = {}
+getgenv().Ghoulbot.MouseModule = {}
+local Enviornment = getgenv().Ghoulbot.MouseModule
+local module = Enviornment
 local player = game.Players.LocalPlayer
 local normalMouse = player:GetMouse()
-local camera = workspace.CurrentCamera
+local camera = game.Workspace.CurrentCamera
 local UIS = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local CollectionService = game:GetService("CollectionService")
