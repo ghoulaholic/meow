@@ -1,4 +1,4 @@
-local assetId = 15104766593
+local assetId = 15106968445
 local InsertService = game:GetService("InsertService")
 local success, model = pcall(InsertService.LoadAsset, InsertService, assetId)
 if success and model then
